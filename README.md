@@ -1,12 +1,12 @@
 🚀 Online Exam System - Spring Boot & Thymeleaf
 
 <p align="center">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Java-17-blue%3Fstyle%3Dfor-the-badge%26logo%3Djava%26logoColor%3Dwhite" alt="Java 17">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Spring%2520Boot-3.x-brightgreen%3Fstyle%3Dfor-the-badge%26logo%3Dspring%26logoColor%3Dwhite" alt="Spring Boot 3.x">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Thymeleaf-green%3Fstyle%3Dfor-the-badge%26logo%3Dthymeleaf%26logoColor%3Dwhite" alt="Thymeleaf">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Spring%2520Security-6-blue%3Fstyle%3Dfor-the-badge%26logo%3Dspringsecurity" alt="Spring Security 6">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/JPA%252FHibernate-red%3Fstyle%3Dfor-the-badge" alt="JPA/Hibernate">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/H2%2520Database-lightgrey%3Fstyle%3Dfor-the-badge" alt="H2 Database">
+<img src="https://img.shields.io/badge/Java-17-blue%3Fstyle%3Dfor-the-badge%26logo%3Djava%26logoColor%3Dwhite" alt="Java 17">
+<img src="https://img.shields.io/badge/Spring%2520Boot-3.x-brightgreen%3Fstyle%3Dfor-the-badge%26logo%3Dspring%26logoColor%3Dwhite" alt="Spring Boot 3.x">
+<img src="https://img.shields.io/badge/Thymeleaf-green%3Fstyle%3Dfor-the-badge%26logo%3Dthymeleaf%26logoColor%3Dwhite" alt="Thymeleaf">
+<img src="https://img.shields.io/badge/Spring%2520Security-6-blue%3Fstyle%3Dfor-the-badge%26logo%3Dspringsecurity" alt="Spring Security 6">
+<img src="https://img.shields.io/badge/JPA%252FHibernate-red%3Fstyle%3Dfor-the-badge" alt="JPA/Hibernate">
+<img src="https://img.shields.io/badge/H2%2520Database-lightgrey%3Fstyle%3Dfor-the-badge" alt="H2 Database">
 </p>
 
 A comprehensive, full-stack Online Examination System built with Spring Boot, Spring Security, and Thymeleaf. This platform provides a secure, role-based environment for Admins to create and manage exams, and for Students to register, take timed tests, upload profile pictures, and review their performance.
@@ -15,7 +15,7 @@ This project is 100% free and the complete source code is provided.
 
 💖 Support & Contact
 
-This project was created by LazyCoder. If you find it helpful, please consider supporting me!
+This project is created by LazyCoder. If you find it helpful, please consider supporting me!
 
 📺 Subscribe to my YouTube Channel!
 
@@ -32,11 +32,11 @@ Want to get your own custom project built? I am available for freelance work.
 WhatsApp: +91 9572181024
 
 <p align="center">
-<a href="https://www.google.com/search?q=https://www.youtube.com/c/LazyCoderOnline%3Fsub_confirmation%3D1">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Subscribe-LazyCoder-red%3Fstyle%3Dfor-the-badge%26logo%3Dyoutube" alt="Subscribe to LazyCoder on YouTube">
+<a href="https://www.youtube.com/c/LazyCoderOnline%3Fsub_confirmation%3D1">
+<img src="https://img.shields.io/badge/Subscribe-LazyCoder-red%3Fstyle%3Dfor-the-badge%26logo%3Dyoutube" alt="Subscribe to LazyCoder on YouTube">
 </a>
-<a href="https://www.google.com/search?q=https://wa.me/919572181024">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/WhatsApp-9572181024-green%3Fstyle%3Dfor-the-badge%26logo%3Dwhatsapp" alt="Contact on WhatsApp">
+<a href="https://wa.me/919572181024">
+<img src="https://img.shields.io/badge/WhatsApp-9572181024-green%3Fstyle%3Dfor-the-badge%26logo%3Dwhatsapp" alt="Contact on WhatsApp">
 </a>
 </p>
 
@@ -58,8 +58,8 @@ WhatsApp: +91 9572181024
 <td align="center" width="50%"><b>Exam Review Page (Correct/Wrong)</b></td>
 </tr>
 <tr>
-<td align="center" width="50%"><img src="https://www.google.com/search?q=https://placehold.co/600x400/e2e8f0/333%3Ftext%3DStudent%2BExam%2BPage" alt="Student Exam Page"></td>
-<td align="center" width="50%"><img src="https://www.google.com/search?q=https://placehold.co/600x400/e2e8f0/333%3Ftext%3DExam%2BReview%2BPage" alt="Exam Review Page"></td>
+<td align="center" width="50%"><img src="https://placehold.co/600x400/e2e8f0/333%3Ftext%3DStudent%2BExam%2BPage" alt="Student Exam Page"></td>
+<td align="center" width="50%"><img src="https://placehold.co/600x400/e2e8f0/333%3Ftext%3DExam%2BReview%2BPage" alt="Exam Review Page"></td>
 </tr>
 <tr>
 <td align="center" width="50%"><b>Manage Students (Admin)</b></td>
@@ -67,7 +67,7 @@ WhatsApp: +91 9572181024
 </tr>
 <tr>
 <td align="center" width="50%"><img src="https" alt="Admin Manage Students"></td>
-<td align="center" width="50%"><img src="https://www.google.com/search?q=https://placehold.co/600x400/e2e8f0/333%3Ftext%3DStudent%2BProfile%2BPage" alt="Student Profile Page"></td>
+<td align="center" width="50%"><img src="https://placehold.co/600x400/e2e8f0/333%3Ftext%3DStudent%2BProfile%2BPage" alt="Student Profile Page"></td>
 </tr>
 </table>
 
@@ -145,7 +145,7 @@ Apache Maven
 
 Clone the Repository:
 
-git clone [https://github.com/sumitkumar1503/online-exam-system.git](https://github.com/your-username/online-exam-system.git)
+git clone [https://github.com/sumitkumar1503/online-exam-system.git](https://github.com/sumitkumar1503/online-exam-system.git)
 cd online-exam-system
 
 
