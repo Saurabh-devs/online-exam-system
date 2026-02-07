@@ -103,7 +103,7 @@ Password :
 
 # 🔐 Default Admin User
 
-| Username | Password |
+| Username | admin |
 |---------|----------|
 | admin | admin123 |
 
@@ -115,6 +115,4 @@ This project is **open-source** under the **MIT License**.
 
 ---
 
-<p align="center">
-<strong>Happy Coding ❤️</strong>
-</p>
+ 
