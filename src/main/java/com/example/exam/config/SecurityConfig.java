@@ -6,40 +6,42 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
-
-
 
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
 
-
     @Autowired
     private CustomUserDetailsService userDetailsService;
 
-
+    // -------- CHANGED PASSWORD ENCODER --------
     @Bean
     public static PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
+        return NoOpPasswordEncoder.getInstance();
     }
+    // -----------------------------------------
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+
         http.csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests((authorize) ->
                         authorize
                                 .requestMatchers("/js/**","/static/js/**", "/css/**", "/images/**", "/uploads/**").permitAll()
-                                // Allow static resources and public pages
+
+                                // Public pages
                                 .requestMatchers("/", "/login", "/register", "/h2-console/**").permitAll()
-                                // Admin-only pages
+
+                                // Admin pages
                                 .requestMatchers("/admin/**").hasRole("ADMIN")
-                                // Student-only pages
+
+                                // Student pages
                                 .requestMatchers("/student/**", "/exam/**").hasRole("STUDENT")
+
                                 // All other requests need authentication
                                 .anyRequest().authenticated()
                 )
@@ -56,16 +58,10 @@ public class SecurityConfig {
                                 .permitAll()
                 )
                 .userDetailsService(userDetailsService)
-                // This is needed for H2 console
+
+                // Required for H2 Console
                 .headers(headers -> headers.frameOptions(frameOptions -> frameOptions.disable()));
-
-
 
         return http.build();
     }
 }
-/***
- Subscribe Lazycoder - https://www.youtube.com/c/LazyCoderOnline?sub_confirmation=1
- whatsapp - https://wa.me/919572181024
- email - wapka1503@gmail.com
- ***/
