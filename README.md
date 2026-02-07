@@ -15,26 +15,7 @@ The platform provides a secure and user-friendly environment for **Admins** and 
 
 ---
 
-# 💖 Support & Contact
 
-This project is created by **LazyCoder**.
-
-### 📺 Subscribe to My YouTube Channel
-I post tutorials, Java/Python projects, and Spring Boot content regularly.
-
-👉 **Subscribe Here:**  
-https://www.youtube.com/c/LazyCoderOnline?sub_confirmation=1
-
----
-
-### 🤝 Need Help or Want a Custom Project?
-
-📌 Facing issues with this project?  
-📌 Want a custom Java/Spring Boot/Django project?
-
-**I am available for freelance development.**
-
-📱 **WhatsApp:** https://wa.me/919572181024
 
 <p align="center">
 <a href="https://www.youtube.com/c/LazyCoderOnline?sub_confirmation=1">
@@ -48,42 +29,6 @@ https://www.youtube.com/c/LazyCoderOnline?sub_confirmation=1
 
 ---
 
-# 📸 Screenshots
-
-
-<table width="100%">
-
-
-<tr>
-<td align="center"><b>Exam Page (with Pagination)</b></td>
-</tr>
-<tr>
-<td align="center"><img src="https://github.com/sumitkumar1503/online-exam-system/blob/master/screenshots/exampage.png" width="90%"></td>
-</tr>
-
-<tr>
-<td align="center"><b>Admin Dashboard</b></td>
-</tr>
-<tr>
-<td align="center"><img src="https://github.com/sumitkumar1503/online-exam-system/blob/master/screenshots/admindashboard.png?raw=true" width="90%"></td>
-</tr>
-
-<tr>
-<td align="center"><b>Manage Exam</b></td>
-</tr>
-<tr>
-<td align="center"><img src="https://github.com/sumitkumar1503/online-exam-system/blob/master/screenshots/adminmanageexam.png" width="90%"></td>
-</tr>
-
-<tr>
-<td align="center"><b>Manage Question</b></td>
-</tr>
-<tr>
-<td align="center"><img src="https://github.com/sumitkumar1503/online-exam-system/blob/master/screenshots/adminmanagequestion.png" width="90%"></td>
-</tr>
-</table>
-
----
 
 # ✨ Features
 
@@ -141,7 +86,7 @@ https://www.youtube.com/c/LazyCoderOnline?sub_confirmation=1
 ### ✔️ Clone the Repository
 
 ```bash
-git clone https://github.com/sumitkumar1503/online-exam-system.git
+git clone https://github.com/Saurabh-devs/online-exam-system.git
 cd online-exam-system
 ```
 
@@ -168,7 +113,7 @@ Access H2 Console:
 ```
 JDBC URL : jdbc:h2:file:./data/examdb  
 Username : sa  
-Password : password
+Password :  
 ```
 
 ---
@@ -177,7 +122,7 @@ Password : password
 
 | Username | Password |
 |---------|----------|
-| admin | adminpass |
+| admin | admin123 |
 
 ---
 
